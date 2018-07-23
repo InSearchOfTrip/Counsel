@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@font-face {
+    font-family: "Segoe UI Emoji";
+    src: url("../fonts/seguiemj.ttf");
+}
+/* start header   */
 a:hover{
     text-decoration: none;
 }
@@ -25,11 +31,13 @@ a:hover{
 }
 .menu-item{
     padding: 10px 0;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+.menu-item a,.fa-caret-down {
+     color: #fff;
+}
 
-}
-.menu-item a {
-    color: #fff;
-}
 .header-content-wrapper{
     height: 100%;
     display: flex;
@@ -37,6 +45,9 @@ a:hover{
 .slider-arrow-wrapper{
  color: #fde428;
  align-self: center;
+}
+.delimiter{
+    margin: 0 5px;
 }
 .slider-content-wrapper{
     color: #fde428;
@@ -52,23 +63,85 @@ a:hover{
     background-repeat: no-repeat;
 }
 .slider-title{
+    font-family: Montserrat;
+    font-weight: bold;
     color: white;
     width: 50%;
-    padding: 15% 25% 0;
+    padding: 15% 21% 0;
 }
-.slider-title span {
+.slider-title  {
+    display: flex;
     font-size: 42px;
     font-weight: bold;
-    line-height: 35px;
+    line-height: 40px;
+    text-align: right;
+
 
 }
 .slider-link {
-    padding: 7% 0 7% 40%;
+    padding: 6% 0 7% 40%;
 }
 .slider-link a {
     color: #fde428;
-    text-decoration: underline;
+    border-bottom: 2px solid #fde428;
+    padding-bottom: 1px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: bold;
 }
+
+/* end header   */
+
+
+/* start section-1 */
+
+.section-1-article{
+    padding: 100px 0;
+}
+.yellow-rectangle{
+    margin: 0 35%;
+    width: 50%;
+    height: 100%;
+    background: #fde52c;
+}
+.section-1-image{
+    position: relative;
+    top: 100px;
+    left: -115px;
+    background: #8f8f8f;
+    width: 500px;
+    height: 325px;
+}
+.article-title{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.article-text-1{
+    font-family:"Segoe UI Emoji";
+    font-size: 21px;
+    line-height: 25px;
+    color: #8f8f8f;
+}
+.article-text-2{
+    font-family:"Segoe UI Emoji";
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+}
+.article-anchor{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    color: #002e5b;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
+
+/* end section-1 */
