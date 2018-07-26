@@ -3,6 +3,11 @@
     font-family: "Segoe UI Emoji";
     src: url("../fonts/seguiemj.ttf");
 }
+*,body,p{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* start header   */
 a:hover{
     text-decoration: none;
@@ -99,7 +104,7 @@ a:hover{
     padding: 100px 0;
 }
 .yellow-rectangle{
-    margin: 0 35%;
+    margin: 0 26%;
     width: 50%;
     height: 100%;
     background: #fde52c;
@@ -107,7 +112,7 @@ a:hover{
 .section-1-image{
     position: relative;
     top: 100px;
-    left: -115px;
+    left: -114px;
     background: #8f8f8f;
     width: 500px;
     height: 325px;
@@ -124,6 +129,7 @@ a:hover{
     font-family:"Segoe UI Emoji";
     font-size: 21px;
     line-height: 25px;
+    margin: 30px 0;
     color: #8f8f8f;
 }
 .article-text-2{
@@ -131,6 +137,7 @@ a:hover{
     font-size: 16px;
     line-height: 25px;
     color: #333333;
+    margin-bottom: 35px;
 }
 .article-anchor{
     font-family: Montserrat;
@@ -139,9 +146,77 @@ a:hover{
     line-height: 25px;
     color: #002e5b;
     text-transform: uppercase;
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     padding-bottom: 3px;
+
 }
 
 
 /* end section-1 */
+
+
+/* start section-2 */
+.section-2{
+    background: #f4f4f4;
+}
+.section-2-wrapper{
+    padding: 100px 0;
+}
+.graph{
+    background: url("../img/section-2/graph.png")no-repeat center center;
+
+}
+
+/* end section-2 */
+
+
+
+/* start section-3 */
+.section-3{
+    background: #002E5B;
+}
+.section-3-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 21px;
+    padding:  35px 0;
+}
+.section-3-btn{
+    font-family:Montserrat;
+    font-weight: bold;
+    color : #002E5B;
+    margin:  35px 0;
+    text-transform: uppercase;
+    background: #fde428;
+}
+.section-3-btn:hover{
+    background: #fdf75a;
+}
+
+/* end section-3 */
+
+
+/* start section-4 */
+.section-4-wrapper{
+    margin-top: 100px;
+}
+.section-4-title{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+}
+.section-4-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    color: #707070;
+    max-width:  632px;
+    text-align: center;
+    margin:  0 auto;
+
+}
+/* end section-4 */
