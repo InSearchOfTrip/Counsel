@@ -3,6 +3,14 @@
     font-family: "Segoe UI Emoji";
     src: url("../fonts/seguiemj.ttf");
 }
+@font-face {
+    font-family: HelveticaRounded;
+    src: url("../fonts/HelveticaRoundedLT-BlackObl.otf");
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url("./fonts/MariadPro.otf");
+}
 *,body,p{
     margin: 0px;
     padding: 0px;
@@ -271,3 +279,55 @@ a:hover{
         height: 325px;
     }
 /* end section-6 */
+
+
+/* start section-7 */
+.section-7{
+    display: flex;
+    background: #002e5b;
+    padding: 120px 0;
+
+}
+.section-7-block{
+    text-align: center;
+}
+.section-7-commas{
+    width: 100%;
+    font-family: HelveticaRounded;
+    font-size: 47px;
+    color: #ffffff;
+
+}
+.section-7-quote{
+    width: 100%;
+    font-family: MyriadPro;
+    font-size: 20px;
+    line-height: 38px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+
+}
+.section-7-author-quote{
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 500px;
+    margin-top: 70px;
+    color: #ffffff;
+
+}
+.section-7-author-quote:before,.section-7-author-quote:after{
+    content: "";
+    display: inline-block;
+    margin-bottom: 4px;
+    width: 20px;
+    height: 2px;
+    background: #ffffff;
+
+}
+/* end section-7 */
