@@ -11,9 +11,9 @@
     font-family: MyriadPro;
     src: url("./fonts/MariadPro.otf");
 }
-*,body,p{
-    margin: 0px;
-    padding: 0px;
+*,body,p,ul{
+    margin: 0;
+    padding: 0;
 }
 
 /* start header   */
@@ -21,11 +21,12 @@ a:hover{
     text-decoration: none;
 }
 .header{
-    background-image: url("../img/header/header-bg.png");
+    /*background-image: url("../img/header/header-bg.png");*/
     width: 100%;
     height: 650px;
     background-size: cover;
     background-position: center center;
+    transition: all 1s ease-in;
 }
 
 .header-wrapper {
@@ -58,6 +59,9 @@ a:hover{
 .slider-arrow-wrapper{
  color: #fde428;
  align-self: center;
+}
+.slider-arrow-wrapper>span{
+    cursor: pointer;
 }
 .delimiter{
     margin: 0 5px;
@@ -112,17 +116,17 @@ a:hover{
     padding: 100px 0;
 }
 .yellow-rectangle{
-    margin: 0 26%;
+    margin: 0 22%;
     width: 50%;
     height: 100%;
     background: #fde52c;
 }
 .section-1-image{
     position: relative;
-    top: 100px;
-    left: -114px;
+    top: calc(50% - 162.5px);
+    left: -50%;
     background: #8f8f8f;
-    width: 500px;
+    width: 200%;
     height: 325px;
 }
 .article-title{
@@ -273,9 +277,9 @@ a:hover{
 /* start section-6 */
     .section-6-video{
         position: relative;
-        top: 100px;
-        left: -114px;
-        width: 500px;
+        top: calc(50% - 162.5px);
+        left: -50%;
+        width: 200%;
         height: 325px;
     }
 /* end section-6 */
@@ -331,3 +335,152 @@ a:hover{
 
 }
 /* end section-7 */
+
+/* start section-8 */
+.section-8{
+    margin-bottom: 100px;
+}
+.section-8-map{
+    margin: 45px 0 36px;
+    width: 100%;
+}
+.section-8-title{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 31px;
+    color: #002e5b;
+    text-transform: uppercase;
+
+}
+.section-8-text{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    color: #707070;
+    max-width:  632px;
+    text-align: center;
+    margin:  0 auto;
+}
+.address{
+    padding-left: 35px;
+}
+.address-title{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #002e5b;
+    padding-left: 33px;
+}
+.address-item{
+    font-family: "Segoe UI Emoji";
+    font-size: 16px;
+    list-style: none;
+    padding:7px 0 5px 34px;
+    color: #002e5b;
+
+}
+.marker-1{
+    background: url("../img/section-8/markers/marker-1.png") no-repeat 0 13px;
+}
+.marker-2{
+    background: url("../img/section-8/markers/marker-2.png") no-repeat 0 13px;
+}
+.marker-3{
+    background: url("../img/section-8/markers/marker-3.png") no-repeat 0 13px;
+}
+
+/* end section-8 */
+
+/* start footer */
+.footer{
+    background: #002e5b;
+}
+.footer-anchor{
+    font: 16px  Montserrat;
+    color: #ffffff;
+}
+.footer-anchor:hover{
+    color: #ffffff;
+}
+.footer-anchor span{
+    color: #fde52c;
+}
+.footer .container .row{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    list-style: none;
+}
+
+
+
+
+/* end footer */
+
+@media (max-width: 1199px) {
+    .logo-wrapper {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .menu-wrapper {
+        flex: 1 0 75%;
+        max-width: 75%;
+
+    }
+
+    .menu-item--special {
+        margin-right: 12px;
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+
+    .slider-title {
+        padding: 16% 1% 0;
+    }
+    .slider-link{
+        padding: 9.4% 0 7% 28%;
+    }
+
+    .yellow-rectangle-section-6{
+        /*margin: 0 7%;*/
+    }
+    .section-5{
+        height: 250px;
+    }
+    .section-7{
+        padding: 65px 0;
+    }
+}
+@media (max-width: 992px) {
+    .header-menu{
+        font-size: 11px;
+    }
+    .menu-item{
+        flex: 0 0 15.666667%;
+    }
+    .slider-title{
+        padding: 16% 2% 0;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .article-title,section-4-title,section-8-title{
+        font-size: 26px;
+    }
+    .section-3-text{
+        font-size: 19px;
+    }
+
+}

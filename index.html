@@ -12,21 +12,21 @@
     <title>Counsel</title>
 </head>
 <body>
-<header class="header">
+<header class="header custom-slider-img">
     <div class="header-wrapper container">
         <div class="row">
-            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 logo-wrapper">
+            <div class="col-lg-5 col-md-3 col-sm-12 col-xs-12 logo-wrapper">
                 <img src="./img/header/logo.png" alt="Logo">
             </div>
-            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                <menu class="row header-menu">
+            <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12 menu-wrapper">
+                <div class="row header-menu">
                     <div class="col-lg-2 col-md-2 menu-item">
                         <a href="#">about</a>
                     </div>
                     <div class="col-lg-2 col-md-2 menu-item">
                         <a href="#">services</a>
                     </div>
-                    <div class="col-lg-2 col-md-2 menu-item">
+                    <div class="col-lg-2 col-md-2 menu-item menu-item--special">
                         <a href="#">why we best</a>
                     </div>
                     <div class="col-lg-2 col-md-2 menu-item">
@@ -36,28 +36,28 @@
                         <a href="#">contact</a>
                     </div>
                     <div class="col-lg-2 col-md-2 ">
-                        <img src="./img/header/english.png">
+                        <img src="./img/header/english.png" alt="eng">
                         <i class="fas fa-caret-down"></i>
                     </div>
-                </menu>
+                </div>
 
             </div>
         </div>
         <div class="row header-content-wrapper">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-arrow-wrapper">
-                <span><i class="fas fa-long-arrow-alt-left"></i>&nbsp;&nbsp;PREVIOUS</span>
+            <div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 slider-arrow-wrapper">
+                <span id="prev"><i class="fas fa-long-arrow-alt-left"></i>&nbsp;&nbsp;PREVIOUS</span>
                    <span class="delimiter">/</span>
-                <span>NEXT&nbsp;&nbsp;<i class="fas fa-long-arrow-alt-right"></i></span>
+                <span id="next">NEXT&nbsp;&nbsp;<i class="fas fa-long-arrow-alt-right"></i></span>
 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 slider-content-wrapper">
+            <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12 slider-content-wrapper">
                 <div class="slider-cube">
-                    <div class="slider-title">
+                    <div class="slider-title custom-slider-text">
                         Consumer Products Consulting
 
                     </div>
                     <div class="slider-link">
-                        <a href="#">learn more</a>
+                        <a class="custom-slider-link" href="#">learn more</a>
                     </div>
 
                 </div>
@@ -70,7 +70,7 @@
 <section class="section-1">
     <div class="section-1-wrapper container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 section-article">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 section-article">
                 <h3 class="article-title">
                     Take away the risk & youcan do anything
                 </h3>
@@ -83,7 +83,7 @@
                 </p>
                 <a class="article-anchor" href="#">take a tour</a>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                 <div class="yellow-rectangle">
                     <div   class="section-1-image">
 
@@ -99,10 +99,10 @@
 <section class="section-2">
     <div class="section-2-wrapper container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 graph ">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 graph ">
 
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 section-2-article">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 section-2-article">
                 <h3 class="article-title">
                     Constructingthe  best in class global assets.
                 </h3>
@@ -123,10 +123,10 @@
 <section class="section-3">
     <div class="section-3-wrapper container">
         <div class="row section-3-contact">
-            <div class="col-lg-10 col-md-10 col-sm-10">
+            <div class="col-lg-10 col-md-9 col-sm-10">
                 <p class="section-3-text">Looking for a First-Class Business Plan Consultant?</p>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2">
+            <div class="col-lg-2 col-md-3 col-sm-2">
                 <button type="button" class="btn section-3-btn">contact now</button>
             </div>
         </div>
@@ -219,14 +219,17 @@
 <section class="section-6">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="yellow-rectangle">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="yellow-rectangle yellow-rectangle-section-6">
                     <video controls="controls" poster="./img/section-6/video-poster.png" class="section-6-video">
                         <source src="" type="" >
                     </video>
-                </div>
+                    <!--<div class="section-6-video">-->
+                                       <!--<iframe width="460" height="315" src="https://www.youtube.com/embed/cM01RsA9hKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                    <!--</div>-->
+                    </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 section-article">
+            <div class="col-lg-6 col-md-12 col-sm-12 section-article">
                 <h3 class="article-title">
                     Why  we best Consulting
                     office in london ?
@@ -264,19 +267,107 @@
 <section class="section-8">
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <h3 class="section-8-title">
+                    contact with us
+                </h3>
+                <p class="section-8-text">
+                    Rapid solutions to the most complex business challenges with cooperative process-driven.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="./img/section-8/maps/map-1.jpg" alt="map" class="section-8-map ">
+                <h3 class="address-title">
+                    Head Quarter
+                </h3>
+                <ul class="address">
+                     <li class="address-item marker-1">
+                         14 Mao Road, N1 4EP,<br/>
+                         Los Angelos, USA
+                     </li>
+                     <li class="address-item marker-2">
+                         +445 6231 411
+                     </li>
+                     <li class="address-item marker-3">
+                         +445 6231 411
+                     </li>
+                 </ul>
 
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="./img/section-8/maps/map-2.jpg" alt="map" class="section-8-map ">
+                <h3 class="address-title">
+                    California office
+                </h3>
+                <ul class="address">
+                    <li class="address-item marker-1">
+                        14 Mao Road, N1 4EP,<br/>
+                        Los Angelos, USA
+                    </li>
+                    <li class="address-item marker-2">
+                        +445 6231 411
+                    </li>
+                    <li class="address-item marker-3">
+                        +445 6231 411
+                    </li>
+                </ul>
+            </div>
+            <div  class="col-lg-4 col-md-4 col-sm-12">
+                <img src="./img/section-8/maps/map-3.jpg" alt="map" class="section-8-map ">
+                <h3 class="address-title">
+                    London office
+                </h3>
+                <ul class="address">
+                    <li class="address-item marker-1">
+                        14 Mao Road, N1 4EP,<br/>
+                        Los Angelos, USA
+                    </li>
+                    <li class="address-item marker-2">
+                        +445 6231 411
+                    </li>
+                    <li class="address-item marker-3">
+                        +445 6231 411
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
 </section>
 
-<section class="section-9">
+<footer class="footer">
     <div class="container">
         <div class="row">
-
+        <a  class="footer-anchor" href="#">
+            Copyright ©&nbsp;<span>Symu.co</span>
+        </a>
+        <ul class="footer-links">
+            <li>
+                <a href="#">
+                    <img src="./img/footer/fb.png" alt="facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/footer/twitter.png" alt="twitter">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./img/footer/google.png" alt="google">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <img src="./img/footer/inst.png" alt="instagram">
+                </a>
+            </li>
+        </ul>
         </div>
     </div>
-</section>
+</footer>
 
 
 <!-- Optional JavaScript -->
@@ -284,5 +375,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<script src="./js/slider.js"></script>
+<script src="./js/scripts.js"></script>
 </body>
 </html>
